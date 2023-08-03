@@ -1,0 +1,120 @@
+.expenseItems_main{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    margin-left: 300px;
+    box-shadow: 2px;
+    font-size: 40px;
+    color: darkorange;
+    font-style: italic;
+}
+
+.expenseItems_details{
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: 1200px;
+    background-color: gray;
+    margin: 20px;
+}
+
+.expenseItems_date{
+    color: rgb(220, 107, 20);
+    font-size: 30px;
+    border-radius: 15px;
+    border: 5px solid white;
+    height: 120px;
+    width: 150px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.expenseItems_items{
+    color: white;
+    background-color: gray;
+    font-size: 30px;
+    border-radius: 15px;
+}
+.expenseItems_price{
+color:rgb(113, 9, 211);
+font-size: 30px;
+border-radius: 15px;
+}
+.expenseItems_year{
+font-size: 15px;
+color: chartreuse;
+}
+.expenseItems_month{
+    font-size:30px;
+color: rgb(245, 5, 5);
+}
+
+.expenseItems_Date{
+font-size: 20px;
+color:darkorange;
+}
+.updateTitle{
+    font-size: 30px;
+    color: rgb(0, 255, 72);
+    background-color: transparent;
+    border: none;
+}
+.updateTitle:hover{
+    background-color: gold;
+    border-bottom: 5px solid deeppink;
+    border-radius: 15px;
+    color: darkred;
+    font-style:italic;
+}
+.ExpenseForm{
+    height: 300px;
+    width: 1200px;
+    background-color:rgb(65, 13, 115);
+}
+.ExpenseForm{
+    margin-left: 20px;
+    border-radius: 15px;
+}
+
+.ExpenseFormTitleInput{
+    height: 50px;
+    width: 600px; 
+    border-radius: 15px;
+    font-size: 20px;
+margin: 10px;
+margin-left: 40px;
+}
+.ExpenseFormAmountInput{
+    height: 50px;
+    width: 600px; 
+    border-radius: 15px;
+    font-size: 20px;
+margin: 10px;
+}
+.ExpenseFormDateInput{
+    height: 50px;
+    width: 600px; 
+    border-radius: 15px;
+    font-size: 20px;
+margin: 10px;
+margin-left: 30px;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.ExpenseFormDateButton{
+   margin-left: 1000px;
+   height: 60px;
+   width: 100px;
+   border-radius: 10px;
+   background-color: darkblue;
+   font-size: 12px;
+   color: white;
+}
